@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastre-se - Mother's Smile: em um dia quente de primavera?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/funcoes.js"></script>
+    <link rel="shortcut icon" href="img/peixe.ico" type="image/x-icon"/>
+  </head>
+  <body style="background-color: #FFF5EE;">
+    <div class="text-center">
+      <div style="max-width: 100%; height: auto;">
+        <img src="img/boxtrolls.png" class="img-fluid" title="Mother's Smile: em um dia quente de primavera?">  
+      </div>
+    </div>
+    <div class="container">
+      <div class="btn-group">
+        <button type="button" 
+          class="btn btn-danger dropdown-toggle" 
+          data-toggle="dropdown">Opções
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="index.html">Página inicial</a>
+          <a class="dropdown-item" href="queijos.html">Nossos queijos</a>
+          <a class="dropdown-item" href="boxtrolls.html">Evento Boxtrolls</a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <h2>Formulário de cadastro</h2>
+    </div>
+    <div class="container">
+    <form class="was-validated">
+        <div class="form-group">
+          <label for="email"><i class="fas fa-user"></i> E-mail:</label>
+          <input type="text" class="form-control" id="email" required>
+          <div class="invalid-feedback">Preencha o campo de e-mail!</div>
+          <div class="valid-feedback">Parece bom.</div>
+        </div>
+        <button type="button" class="btn btn-danger" id="ok">
+          <i class="fas fa-play"></i> Ok
+        </button>
+        <div class="toast" data-autohide="false">
+          <div class="toast-header">
+            <strong class="mr-auto text-danger">E-mail:</strong>
+            <input type="button" class="ml-2 mb-1 close" 
+              data-dismiss="toast" value="&times;">
+          </div>
+          <div class="toast-body"></div>
+        </div>
+    </form> 
+    <form class="was-validated">
+        <div class="form-group">
+          <label for="nome"><i class="fas fa-user"></i> Nome:</label>
+          <input type="text" class="form-control" id="nome" required>
+          <div class="invalid-feedback">Preencha o campo de nome!</div>
+          <div class="valid-feedback">Ok.</div>
+        </div>
+        <button type="button" class="btn btn-danger" id="ok-nome">
+          <i class="fas fa-play"></i> Ok
+        </button>
+        <div class="toast" data-autohide="false">
+          <div class="toast-header">
+            <strong class="mr-auto text-danger">Nome:</strong>
+            <input type="button" class="ml-2 mb-1 close" 
+              data-dismiss="toast" value="&times;">
+          </div>
+          <div class="toast-body2"></div>
+        </div>
+    </form><br>
+    <form class="was-validated">
+        <div class="form-group">
+          <label for="endereco"><i class="fas fa-user"></i> Endereço:</label>
+          <input type="text" class="form-control" id="endereco" required>
+          <div class="invalid-feedback">Preencha o campo de endereço!</div>
+          <div class="valid-feedback">Certo.</div>
+        </div>
+        <button type="button" class="btn btn-danger" id="ok-endereco">
+          <i class="fas fa-play"></i> Ok
+        </button>
+        <div class="toast" data-autohide="false">
+          <div class="toast-header">
+            <strong class="mr-auto text-danger">Endereço:</strong>
+            <input type="button" class="ml-2 mb-1 close" 
+              data-dismiss="toast" value="&times;">
+          </div>
+          <div class="toast-body3"></div>
+        </div>
+    </form>
+    <div class="text-left">
+        <h3>Seja bem-vindo ao Mother's Smile!</h3>
+    </div>
+        <a href="index.html">
+        <button type="button" class="btn btn-outline-danger">
+            ...Voltar para página inicial  
+        </button>
+        </a>
+    </div><br><br>
+      <div class="rodape">
+      <p>&copy; 2020, Julia Alves C. Zacarin, Laika Studios</p>  
+      </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.aumentar {
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.aumentar:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.rodape {
+  background-color: lightgray;
+  padding: 12px;
+  text-align: center;
+  font-family: arial, verdana;  
+}
+
